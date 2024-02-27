@@ -3,7 +3,7 @@ import React, { useEffect,useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 
-export default function ViewUser() {
+export default function ViewItem() {
 
     const { id } = useParams();
     const [item, setItem] = useState({
